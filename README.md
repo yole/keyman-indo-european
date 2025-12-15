@@ -30,7 +30,7 @@ Keyboad for entering characters commonly used in Indo-European studies (Proto-In
 
 ### Other
 
-* Zero grade marker (∅): type capital O followed by /
+* Zero ending marker (∅): type capital O followed by /
 
 Copyright
 ---------
