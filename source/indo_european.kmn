@@ -1,0 +1,69 @@
+﻿c indo_european generated from template at 2025-10-22 20:38:48
+c with name "Indo-European"
+store(&NAME) 'Indo-European'
+store(&COPYRIGHT) 'Copyright © Dmitry Zhemerov'
+store(&VERSION) '10.0'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'indo_european.ico'
+store(&VISUALKEYBOARD) 'indo_european.kvks'
+store(&LAYOUTFILE) 'indo_european.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+store(vowel) "aeiouy"
+store(vowel_acute) "áéíóúý"
+store(vowel_grave) "àèìòùỳ"
+store(vowel_macron) "āēīōūȳ"
+store(vowel_breve) "ăĕĭŏŭỳ"
+
+"h" + "1" > "h₁"
+"h" + "2" > "h₂"
+"h" + "3" > "h₃"
+"h" + "^" > "ʰ"
+"w" + "^" > "ʷ"
+"i" + "^" > "ⁱ"
+"j" + "^" > "ʲ"
+"i" + "<" > "i̯"
+"u" + "<" > "u̯"
+"h" + "\" > "ḫ"
+"k" + "/" > "ḱ"
+"g" + "/" > "ǵ"
+"s" + "/" > "ś"
+
+"ǵ" + "h" > "ǵʰ"
+"ʷ" + "h" > "ʷʰ"
+
+any(vowel) + "\" > index(vowel_breve, 1)
+any(vowel) + "_" > index(vowel_macron, 1)
+"r̥" + "_" > "r̥̄"
+"V" + "_" > "V̄"
+
+any(vowel) + "/" > index(vowel_acute, 1)
+any(vowel_acute) + "/" > index(vowel, 1) "/"
+
+"ā" + "/" > "ā́"
+"ē" + "/" > "ḗ"
+"ī" + "/" > "ī́"
+"ō" + "/" > "ṓ"
+"ū" + "/" > "ū́"
+"r̥" + "/" > "ŕ̥"
+
+"O" + "/" > "∅"
+
+"l" + "0" > "l̥"
+"m" + "0" > "m̥"
+"n" + "0" > "n̥"
+"r" + "0" > "r̥"
+"." + "r" > "ṛ"
+"." + "s" > "ṣ"
+"." + "t" > "ṭ"
+"." + "d" > "ḍ"
+"." + "n" > "ṇ"
+"." + "m" > "ṃ"
+"." + "l" > "ḷ"
+"." + "h" > "ḥ"
+"." + "e" > "ė"
+"n" + "~" > "ñ"
