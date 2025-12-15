@@ -16,7 +16,7 @@ Keyboad for entering characters commonly used in Indo-European studies (Proto-In
 * Grave accent (à): type vowel followed by `
 * Slash after vowel: type / twice
 * Semivowels (i̯ u̯): type vowel followed by <
-* Lithuanian é: type e followed by .
+* Lithuanian ė: type . followed by e
 
 ### Consonants
 
