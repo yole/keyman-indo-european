@@ -1,4 +1,4 @@
-Indo-European keyboard
+Indo-European keyboard for [Keyman](https://keyman.com)
 ==============
 
 Description
