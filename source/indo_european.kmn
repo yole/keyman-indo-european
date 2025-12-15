@@ -38,6 +38,7 @@ store(vowel_breve) "ăĕĭŏŭỳ"
 
 any(vowel) + "\" > index(vowel_breve, 1)
 any(vowel) + "_" > index(vowel_macron, 1)
+any(vowel) + "`" > index(vowel_grave, 1)
 "r̥" + "_" > "r̥̄"
 "V" + "_" > "V̄"
 
