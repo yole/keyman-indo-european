@@ -18,6 +18,8 @@ store(vowel_acute) "áéíóúý"
 store(vowel_grave) "àèìòùỳ"
 store(vowel_macron) "āēīōūȳ"
 store(vowel_breve) "ăĕĭŏŭỳ"
+store(palatalizable) "kgs"
+store(palatalized) "ḱǵś"
 
 "h" + "1" > "h₁"
 "h" + "2" > "h₂"
@@ -29,9 +31,6 @@ store(vowel_breve) "ăĕĭŏŭỳ"
 "i" + "<" > "i̯"
 "u" + "<" > "u̯"
 "h" + "\" > "ḫ"
-"k" + "/" > "ḱ"
-"g" + "/" > "ǵ"
-"s" + "/" > "ś"
 
 "ǵ" + "h" > "ǵʰ"
 "ʷ" + "h" > "ʷʰ"
@@ -44,6 +43,8 @@ any(vowel) + "`" > index(vowel_grave, 1)
 
 any(vowel) + "/" > index(vowel_acute, 1)
 any(vowel_acute) + "/" > index(vowel, 1) "/"
+any(palatalizable) + "/" > index(palatalized, 1)
+any(palatalized) + "/" > index(palatalizable, 1) "/"
 
 "ā" + "/" > "ā́"
 "ē" + "/" > "ḗ"

@@ -24,7 +24,7 @@ Keyboad for entering characters commonly used in Indo-European studies (Proto-In
 * Superscript h, w, i, j: type letter followed by ^
 * Syllabic liquids (r̥, l̥, m̥, n̥): type letter followed by 0
 * Retroflex consonants (ḥ etc.): type . followed by letter
-* IE and Sanskrit palatal consonants (ḱ ǵ ś): type letter followed by /
+* IE and Sanskrit palatal consonants (ḱ ǵ ś): type letter followed by / (type / twice for slash after consonant)
 * Palatal ñ: type n followed by ~
 * Hittite ḫ: type h followed by \
 
